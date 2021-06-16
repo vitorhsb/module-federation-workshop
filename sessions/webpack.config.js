@@ -16,6 +16,7 @@ module.exports = {
       exposes: {
         "./App": "./src/index.js",
       },
+      shared: ["txtgen"],
     }),
   ],
 };
